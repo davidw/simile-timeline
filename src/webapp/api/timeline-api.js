@@ -151,7 +151,7 @@
                         var scripts = heads[h].getElementsByTagName("script");
                         for (var s = 0; s < scripts.length; s++) {
                             var url = scripts[s].src;
-                            var i = url.indexOf("timeline-api.js");
+                            var i = url.indexOf("big.js");
                             if (i >= 0) {
                                 Timeline.urlPrefix = url.substr(0, i);
                                 var q = url.indexOf("?");
